@@ -7,105 +7,55 @@
 **Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
 
 | Our Model | MusicGen-large-stereo  | 
+| --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ------ | -------------- | 
+| ---------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
 
 **Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
 
 | Our Model | MusicGen-large-stereo  | 
+| --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ------ | -------------- | 
+| ---------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/94_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/94_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: UNKNOWN SO FAR
 
 | Our Model | MusicGen-large-stereo  | 
+| --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ------ | -------------- | 
+| ---------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/906_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/906_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 **Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
 
 | Our Model | MusicGen-large | Ground-truth | 
+| --------- | -------------- | --------------- | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ------ | -------------- | --------------- | --------- |
+| ---------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/1069_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1969_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1069.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
 **Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
 
 | Our Model | MusicGen-large | Ground-truth | 
+| --------- | -------------- | --------------- | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ------ | -------------- | --------------- | --------- |
+| ---------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: UNKNOWN SO FAR
 
 | Our Model | MusicGen-large | Ground-truth | 
+| --------- | -------------- | --------------- | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ------ | -------------- | --------------- | --------- |
+| ---------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 These prompts/audios were used for the qualitative study we report in our paper.
 
 
-#### NEW VERSION
-
-Here are the fixed markdown tables:
-
-## Long-form music generation: comparison with state-of-the-art with Song Describer Dataset prompts
-
-**Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing.
-
-| Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ---------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing.
-
-| Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ---------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/94_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/94_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: UNKNOWN SO FAR
-
-| Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
-| ---------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/906_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/906_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-
-**Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
-
-| Our Model | MusicGen-large | Ground-truth | 
-| --------- | -------------- | --------------- | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ---------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/1069_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1969_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1069.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
-
-| Our Model | MusicGen-large | Ground-truth | 
-| --------- | -------------- | --------------- | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ---------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: UNKNOWN SO FAR
-
-| Our Model | MusicGen-large | Ground-truth | 
-| --------- | -------------- | --------------- | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
-| ---------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-I've aligned the table headers and content properly.
 
 
 ## Memorization analysis
