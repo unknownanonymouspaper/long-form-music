@@ -9,7 +9,7 @@
 | Our Model | MusicGen-large-stereo  | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
 | ------ | -------------- | 
-| <audio controls preload=False><source src="audio/1001_sa2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
 
