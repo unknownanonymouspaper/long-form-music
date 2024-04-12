@@ -89,7 +89,7 @@ We extensively listened to potential memorization candidates, and **could not fi
 
 We found a fair ammount of 8-bit/chiptunes that were repeated in the training dataset. Still, our model does not memorize them.
 
-We even selected additional outstanding generations from the Song Describer Dataset prompts, and **could not find memorization**. Those are the most interesting memorization candidates:
+We even selected additional outstanding generations from Song Describer Dataset prompts, and **could not find memorization**. Those are the most interesting memorization candidates:
 
 | Generation by our model | Closest #1 | Closest #2 | Closest #3 | Prompt |
 | ----------------------- | ---------- | ---------- | ---------- | ------ |
