@@ -58,7 +58,7 @@ The training dataset contains a subset of music with vocals. Our focus is on the
 
 |<audio controls preload=False><source src="audio/vocals1.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
 |<audio controls preload=False><source src="audio/vocals3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals4.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vcoals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
 
 **Short-form audio generation**
 The training set does not exclusively contain long-form music. It also contains shorter sounds like sound effects or instrument samples. As a consequence, our model is also capable of producing such sounds when prompted appropriately. Examples of short-form audio generations are also on our demo page.
