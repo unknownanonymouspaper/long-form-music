@@ -1,8 +1,6 @@
 ⚠️ *Warning: This website may not function properly on Safari. For the best experience, please use Google Chrome.*
 
-
-
-## Long-form music generation: comparison with state-of-the-art with Song Describer Dataset prompts
+## Comparison with state-of-the-art: Song Describer Dataset prompts
 
 **Prompt**: An uplifting jazz song that makes your head shake. 
 
@@ -42,6 +40,28 @@
 
 These prompts/audios were used for the qualitative study we report in our paper.
 
+## Additional creative capabilities
+
+**Audio-to-audio**
+ With diffusion models is possible to perform some degree of style-transfer by initializing the noise with audio during sampling. This capability can be used to modify the aesthetics of an existing recording based on a given text prompt, whilst maintaining the reference audio's structure (e.g., a beatbox recording could be style-transfered to produce realistic-sounding drums). As a result, our model can be influenced by not only text prompts but also audio inputs, enhancing its controllability and expressiveness. We noted that when initialized with voice recordings (such as beatbox or onomatopoeias), there is a sensation of control akin to an instrument.
+
+| Input audio | Output audio | Prompt |
+| ----------- | ------------ | ------ |
+|<audio controls preload=False><source src="audio/input_bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Bass guitar|
+|<audio controls preload=False><source src="audio/input_vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| format: solo, instruments: vibraphone |
+|<audio controls preload=False><source src="audio/input_707.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/707.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Genre: UK Bass, Instruments: 707 Drum Machine, Strings, 808 bass stabs, Beautiful Synths |
+|<audio controls preload=False><source src="audio/input_whistle.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/whistle.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Guitar |
+|<audio controls preload=False><source src="audio/input_hum.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/hum.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Drums |
+
+**Vocal music**
+The training dataset contains a subset of music with vocals. Our focus is on the generation of instrumental music, so we do not provide any conditioning based on lyrics. As a result, when the model is prompted for vocals, the model's generations contains vocal-like melodies without intelligible words. Whilst not a substitute for intelligible vocals, these sounds have an artistic and textural value of their own.
+
+|<audio controls preload=False><source src="audio/vocals1.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/vocals3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals4.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+
+**Short-form audio generation**
+The training set does not exclusively contain long-form music. It also contains shorter sounds like sound effects or instrument samples. As a consequence, our model is also capable of producing such sounds when prompted appropriately. Examples of short-form audio generations are also on our demo page.
 
 ## Memorization analysis
 
@@ -55,27 +75,4 @@ These prompts/audios were used for the qualitative study we report in our paper.
 | <audio controls preload=False><source src="audio/1001_original.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.279428">279428</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.1082095">1082095</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.326758">326758</a>| An uplifting jazz song that makes your head shake. |
 | <audio controls preload=False><source src="audio/1091_original.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.1024058">1024058</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.1023046">1023046</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.788950">788950</a>| Calming instrumental music primarily on piano can be used for relaxing. |
 | <audio controls preload=False><source src="audio/1069_original.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.470048">470048</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.470047">470047</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.696082">696082</a>| This song starts with a ukulele and builds up with percussion using claps and an acoustic guitar that plays the same rhythm as the ukulele with melody played on a xylophone and has a very upbeat feel to it. |
-
-
-## Additional creative capabilities
-
-**Audio-to-audio**
- With diffusion models is possible to perform some degree of style-transfer by initializing the noise with audio during sampling. This capability can be used to modify the aesthetics of an existing recording based on a given text prompt, whilst maintaining the reference audio's structure (e.g., a beatbox recording could be style-transfered to produce realistic-sounding drums). As a result, our model can be influenced by not only text prompts but also audio inputs, enhancing its controllability and expressiveness. We noted that when initialized with voice recordings (such as beatbox or onomatopoeias), there is a sensation of control akin to an instrument.
-
-| Input audio | Output audio | Prompt |
-| ----------- | ------------ | ------ |
-|<audio controls preload=False><source src="audio/input_bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Bass guitar|
-|<audio controls preload=False><source src="audio/input_vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| format: solo, instruments: vibraphone |
-|<audio controls preload=False><source src="audio/input_707s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/707s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Genre: UK Bass, Instruments: 707 Drum Machine, Strings, 808 bass stabs, Beautiful Synths |
-
-**Vocal music**
-The training dataset contains a subset of music with vocals. Our focus is on the generation of instrumental music, so we do not provide any conditioning based on lyrics. As a result, when the model is prompted for vocals, the model's generations contains vocal-like melodies without intelligible words. Whilst not a substitute for intelligible vocals, these sounds have an artistic and textural value of their own.
-
-|<audio controls preload=False><source src="audio/vocals1.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/vocals3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals4.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-
-**Short-form audio generation**
-The training set does not exclusively contain long-form music. It also contains shorter sounds like sound effects or instrument samples. As a consequence, our model is also capable of producing such sounds when prompted appropriately. Examples of short-form audio generations are also on our demo page.
-
 
