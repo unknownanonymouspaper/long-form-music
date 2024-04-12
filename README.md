@@ -73,3 +73,20 @@ These prompts/audios were used for the qualitative study we report in our paper.
 
 ## Additional creative capabilities
 
+**Audio-to-audio**
+ With diffusion models is possible to perform some degree of style-transfer by initializing the noise with audio during sampling. This capability can be used to modify the aesthetics of an existing recording based on a given text prompt, whilst maintaining the reference audio's structure (e.g., a beatbox recording could be style-transfered to produce realistic-sounding drums). As a result, our model can be influenced by not only text prompts but also audio inputs, enhancing its controllability and expressiveness. We noted that when initialized with voice recordings (such as beatbox or onomatopoeias), there is a sensation of control akin to an instrument. 
+
+
+**Vocal music**
+The training dataset contains a subset of music with vocals. Our focus is on the generation of instrumental music, so we do not provide any conditioning based on lyrics. As a result, when the model is prompted for vocals, the model's generations contains vocal-like melodies without intelligible words. Whilst not a substitute for intelligible vocals, these sounds have an artistic and textural value of their own.
+
+<audio controls preload=False><source src="audio/vocals1.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+<audio controls preload=False><source src="audio/vocals2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+<audio controls preload=False><source src="audio/vocals3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+<audio controls preload=False><source src="audio/vocals4.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+
+**Short-form audio generation**
+The training set does not exclusively contain long-form music. It also contains shorter sounds like sound effects or instrument samples. As a consequence, our model is also capable of producing such sounds when prompted appropriately. Examples of short-form audio generations are also on our demo page.
+
+
