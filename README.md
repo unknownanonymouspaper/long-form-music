@@ -78,7 +78,7 @@ Considering the increased probability of memorizing repeated music within the da
 
 We compare our model's generations against the training set in LAION-CLAP space. Generations are from 5566 prompts within the repeated training data (in-distribution), and 586 prompts from the Song Describer Dataset (no-singing, out-of-distribution). We then identify the top-50 generated music that is closest to the training data and listen. 
 
-We extensively listened to potential memorization candidates, and could not find memorization. Those are the most interesting memorization candidates from repeated training data:
+We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from (repeated) training data prompts:
 
 | Generation by our model | Closest #1 | Closest #2 | Closest #3 | Prompt |
 | ----------------------- | ---------- | ---------- | ---------- | ------ |
@@ -87,7 +87,9 @@ We extensively listened to potential memorization candidates, and could not find
 | <audio controls preload=False><source src="audio/972457.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.979544">979544</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.979695">979695</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.979670">979670</a>| Totally rad 8-bit melodies and intense arps create that strong-willed throwback vibe. |
 | <audio controls preload=False><source src="audio/978661.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.972466">972466</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.972983">972983</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.973055">973055</a>| Pleasant strings create desire in this adamant scoring cue. |
 
-We even selected additional outstanding generations from the Song Describer Dataset prompts, and could not find memorization. Those are the most interesting memorization candidates:
+We found a fair ammount of 8-bit/chiptunes that were repeated in the training dataset. Still, our model does not memorize them.
+
+We even selected additional outstanding generations from the Song Describer Dataset prompts, and **could not find memorization**. Those are the most interesting memorization candidates:
 
 | Generation by our model | Closest #1 | Closest #2 | Closest #3 | Prompt |
 | ----------------------- | ---------- | ---------- | ---------- | ------ |
