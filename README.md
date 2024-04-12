@@ -4,44 +4,41 @@
 
 ## Long-form music generation: comparison with state-of-the-art with Song Describer Dataset prompts
 
-**Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
+**Prompt**: An uplifting jazz song that makes your head shake. 
 
 | Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
+| --------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-
-**Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
+**Prompt**: One cannot avoid moving the feet and neck listening to this fast and loopy brazilian tune.
 
 | Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
 | <audio controls preload=False><source src="audio/94_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/94_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt**: UNKNOWN SO FAR
+**Prompt**: Ambiental song that evokes calm with a progression of stereo electronic elements.
 
 | Our Model | MusicGen-large-stereo  | 
 | --------- | ---------------------- | 
 | *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
 | <audio controls preload=False><source src="audio/906_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/906_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-
-**Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
+**Prompt**: This song starts with a ukulele and builds up with percussion using claps and an acoustic guitar that plays the same rhythm as the ukulele with melody played on a xylophone and has a very upbeat feel to it.
 
 | Our Model | MusicGen-large | Ground-truth | 
 | --------- | -------------- | --------------- | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
 | <audio controls preload=False><source src="audio/1069_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1969_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1069.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
+**Prompt**: Calming instrumental music primarily on piano can be used for relaxing.
 
 | Our Model | MusicGen-large | Ground-truth | 
 | --------- | -------------- | --------------- | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
 | <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt**: UNKNOWN SO FAR
+**Prompt**: A dance music club banger, with a heavy kick, subtle supporting percussion like tabla and bongos, prominent pop synth lines, and a repetitive hook.
 
 | Our Model | MusicGen-large | Ground-truth | 
 | --------- | -------------- | --------------- | 
