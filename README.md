@@ -98,3 +98,22 @@ We even selected additional outstanding generations from Song Describer Dataset 
 | <audio controls preload=False><source src="audio/1091_original.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.1024058">1024058</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.1023046">1023046</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.788950">788950</a>| Calming instrumental music primarily on piano can be used for relaxing. |
 | <audio controls preload=False><source src="audio/1069_original.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.470048">470048</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.470047">470047</a>| <a href="https://www.audiosparx.com/sa/summary/play.cfm/crumb.31/crumc.0/sound_iid.696082">696082</a>| This song starts with a ukulele and builds up with percussion using claps and an acoustic guitar that plays the same rhythm as the ukulele with melody played on a xylophone and has a very upbeat feel to it. |
 
+## Autoencoder: reconstructions
+
+This comparison is useful to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
+
+| Ground truth | Autoencoder reconstruction |
+| ------------ | -------------------------- |
+|<audio controls preload=False><source src="audio/226.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/226.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/3112.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/3112.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/3453.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/3453.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/4880.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/4880.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/4883.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/4883.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5084.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5084.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5089.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5089.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5339.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5339.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5340.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5340.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5341.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5341.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/5343.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5343.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+
+
