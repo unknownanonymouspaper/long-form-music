@@ -6,43 +6,37 @@
 
 **Prompt**: An uplifting jazz song that makes your head shake. 
 
-| Our Model | MusicGen-large-stereo  | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
+| Our Model (stereo, 44.1kHz) | MusicGen-large-stereo (stereo, 32kHz) | 
 | --------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: One cannot avoid moving the feet and neck listening to this fast and loopy brazilian tune.
 
 | Our Model | MusicGen-large-stereo  | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
 | --------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/94_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/94_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: Ambiental song that evokes calm with a progression of stereo electronic elements.
 
 | Our Model | MusicGen-large-stereo  | 
-| *(stereo, 44.1kHz)* | *(stereo, 32kHz)* |
 | --------- | ---------------------- | 
 | <audio controls preload=False><source src="audio/906_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/906_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: This song starts with a ukulele and builds up with percussion using claps and an acoustic guitar that plays the same rhythm as the ukulele with melody played on a xylophone and has a very upbeat feel to it.
 
-| Our Model | MusicGen-large | Ground-truth | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
+| Our Model (stereo, 44.1kHz) | MusicGen-large-stereo (stereo, 32kHz) | Ground-truth (stereo, 44.1kHz) | 
 | --------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/1069_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1969_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1069.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: Calming instrumental music primarily on piano can be used for relaxing.
 
-| Our Model | MusicGen-large | Ground-truth | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
+| Our Model | MusicGen-large-stereo | Ground-truth | 
 | --------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: A dance music club banger, with a heavy kick, subtle supporting percussion like tabla and bongos, prominent pop synth lines, and a repetitive hook.
 
-| Our Model | MusicGen-large | Ground-truth | 
-| *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 44.1kHz)* |
+| Our Model | MusicGen-large-stereo | Ground-truth | 
 | --------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
@@ -69,6 +63,7 @@ These prompts/audios were used for the qualitative study we report in our paper.
  With diffusion models is possible to perform some degree of style-transfer by initializing the noise with audio during sampling. This capability can be used to modify the aesthetics of an existing recording based on a given text prompt, whilst maintaining the reference audio's structure (e.g., a beatbox recording could be style-transfered to produce realistic-sounding drums). As a result, our model can be influenced by not only text prompts but also audio inputs, enhancing its controllability and expressiveness. We noted that when initialized with voice recordings (such as beatbox or onomatopoeias), there is a sensation of control akin to an instrument.
 
 | Input audio | Output audio | Prompt |
+| ----------- | ------------ | ------ |
 |<audio controls preload=False><source src="audio/input_bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/bass.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Bass guitar|
 |<audio controls preload=False><source src="audio/input_vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vibraphone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| format: solo, instruments: vibraphone |
 |<audio controls preload=False><source src="audio/input_707s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/707s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Genre: UK Bass, Instruments: 707 Drum Machine, Strings, 808 bass stabs, Beautiful Synths |
