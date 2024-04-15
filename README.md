@@ -65,10 +65,11 @@ The training set does not exclusively contain long-form music. It also contains 
 
 | Generation by our model | Prompt |
 | ----------------------- | ------ |
-|<audio controls preload=False><source src="audio/explosion.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Explosion |
+|<audio controls preload=False><source src="audio/dog" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Dog barking |
 |<audio controls preload=False><source src="audio/ringtone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Ringtone |
-|<audio controls preload=False><source src="audio/car-passing-by.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Car passing by |
-|<audio controls preload=False><source src="audio/fireworks-44.1k-high-fidelity.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Fireworks, 44.1kHz, high-fidelity. |
+|<audio controls preload=False><source src="audio/waves.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Waves |
+|<audio controls preload=False><source src="audio/helicopter" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Helicopter passing by from left to right |
+|<audio controls preload=False><source src="audio/chicken.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Fowl, chicken, rooster, crowing, cock-a-doodle-doo |
 
 ## Memorization analysis
 
