@@ -58,17 +58,17 @@ The training dataset contains a subset of music with vocals. Our focus is on the
 
 |<audio controls preload=False><source src="audio/vocals1.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
 |<audio controls preload=False><source src="audio/vocals3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals4.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vcoals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
+|<audio controls preload=False><source src="audio/vocals5.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/vocals6.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
 
 **Short-form audio generation**
 The training set does not exclusively contain long-form music. It also contains shorter sounds like sound effects or instrument samples. As a consequence, our model is also capable of producing such sounds when prompted appropriately.
 
 | Generation by our model | Prompt |
 | ----------------------- | ------ |
-|<audio controls preload=False><source src="audio/dog" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Dog barking |
+|<audio controls preload=False><source src="audio/dog.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Dog barking |
 |<audio controls preload=False><source src="audio/ringtone.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Ringtone |
 |<audio controls preload=False><source src="audio/waves.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Waves |
-|<audio controls preload=False><source src="audio/helicopter" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Helicopter passing by from left to right |
+|<audio controls preload=False><source src="audio/helicopter.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Helicopter passing by from left to right |
 |<audio controls preload=False><source src="audio/chicken.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>| Fowl, chicken, rooster, crowing, cock-a-doodle-doo |
 
 ## Memorization analysis
